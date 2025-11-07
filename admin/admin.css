@@ -1,0 +1,52 @@
+body {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+/* 다크모드 테이블 스타일 */
+.dark-mode .table {
+  background-color: #1e1e1e;
+  color: #f1f1f1;
+  border-color: #444;
+}
+
+.dark-mode .table thead {
+  background-color: #2a2a2a;
+  color: #fff;
+}
+
+.dark-mode .table tbody tr:hover {
+  background-color: #333;
+}
+
+.dark-mode .table-light {
+  background-color: #2a2a2a !important;
+  color: #fff !important;
+}
+
+/* 폼 요소 */
+.dark-mode .form-control,
+.dark-mode .form-select {
+  background-color: #333;
+  color: #fff;
+  border-color: #555;
+}
+
+/* 회원가입 폼 */
+.signup-form {
+  display: none;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 30px;
+  background: #f8f9fa;
+}
+
+.dark-mode .signup-form {
+  background: #222;
+  border-color: #555;
+}
